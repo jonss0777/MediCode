@@ -1,5 +1,4 @@
 # MediCode Website
 
 Using 
-- Native React
-- Expo
+HTML CSS and JS
