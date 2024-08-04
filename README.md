@@ -30,7 +30,7 @@
 - Introduction to Algorithms, Fourth edition 
 
 
-**Tech Stack used **
+### Tech Stack used
 
 - HTML 
 - CSS
