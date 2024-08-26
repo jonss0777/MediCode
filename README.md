@@ -35,10 +35,8 @@
 - HTML 
 - CSS
 - JavaScript
-- Bootstrap
 - Flask
-- Vercel for frontend deployment  
-- Heruko for backend deployment
+- Heruko for backend deployment and PostgreSQL
 
 **Feel free to fork this repository and make contributions**
 

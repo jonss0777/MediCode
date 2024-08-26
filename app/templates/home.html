@@ -1,0 +1,37 @@
+{% extends 'layout.html'%}
+
+    {% block header %}
+    <div class="logo">Medicode</div>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#events">Events</a>
+            <a href="#activities">Activities</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    {% endblock %}
+
+
+    {%block content%}
+    <main class="main-content">
+        <section id="home" class="intro">
+            <h1>Welcome to Medicode</h1>
+            <p>Join us for exciting activities and events!</p>
+        </section>
+
+        <section id="events" class="events">
+            <h2>Upcoming Events</h2>
+            <div class="event-list" id="eventList">
+                <!-- Event items will be dynamically added here -->
+            </div>
+        </section>
+
+        <section id="activities" class="activities">
+            <h2>Recent Activities</h2>
+            <div class="activity-list" id="activityList">
+                <!-- Activity items will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+    {% endblock %}
+
+    
