@@ -75,9 +75,9 @@ Create a pull request detailing your changes.
 ## Contact
 
 
-Discord server: https://discord.gg/PyvxdqKgk8
+Medicode discord server: https://discord.gg/PyvxdqKgk8
 
-You can find me a Jon in this server
+You can find me as Jon in this server
 
 
 
