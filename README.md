@@ -31,11 +31,26 @@
 ## Installation
 
 To run this website locally, follow these steps:
-
+```
 1. Clone the repository:
-   ```
+
    git clone https://github.com/jonss0777/MediCode.git
-   ```
+
+2. Navigate to the project directory
+
+   cd medicode
+
+3. Install dependencies
+
+   npm install
+
+4. Start the development server:
+
+   npm start
+
+
+Visit http://lococalhost:3000 in your browser to view the website
+```
 
 
 
