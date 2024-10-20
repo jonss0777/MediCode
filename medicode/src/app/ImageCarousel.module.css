@@ -1,0 +1,24 @@
+/* src/app/components/Projects.module.css */
+
+.projectsContainer {
+  padding: 20px;
+}
+
+.projectBox {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  transition: transform 0.3s; /* Smooth hover effect */
+  cursor: pointer;
+}
+
+.projectBox:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.image {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Match border radius */
+}
