@@ -9,9 +9,8 @@
 
 ### Tech Stack used
 
-- HTML 
-- CSS
-- JavaScript
+- MUI components
 - NextJS
 - Flask (pending)
-- Heruko 
+- Vercel (will move to Heruko
+  )
