@@ -1,4 +1,4 @@
-# Medicode website
+# Medicode CLub Website
 
 ![Medicode Logo](/img/MedicodeLogo.JPEG)
 
