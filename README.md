@@ -51,6 +51,40 @@ To run this website locally, follow these steps:
 
 Visit http://lococalhost:3000 in your browser to view the website
 ```
+## Contributing
+```
+We welcome contributions! To contribute to the project:
+
+    Fork the repository.
+    Create a new branch for your feature or bug fix:
+
+    bash
+
+git checkout -b feature-name
+
+Make your changes and commit them:
+
+bash
+
+git commit -m "Description of your changes"
+
+Push to your fork:
+
+bash
+
+git push origin feature-name
+
+Create a pull request detailing your changes.
+```
+
+## Contact
+
+
+Discord server: https://discord.gg/PyvxdqKgk8
+
+You can find me a Jon in this server
+
+
 
 
 
