@@ -6,6 +6,8 @@ import React, { useState } from 'react';
 import { Box, Button, Typography } from '@mui/material';
 import styles from './ImageCarousel.module.css';
 
+import Image from 'next/image';
+
 const images = [
   {
     src: '/images/medicode.jpeg',
@@ -38,7 +40,15 @@ const ImageCarousel = () => {
   return (
     <Box className={styles.carouselContainer}>
       <Box className={styles.imageContainer}>
-        <img src={images[currentIndex].src} alt={images[currentIndex].alt} className={styles.image} />
+        {/* <img src={images[currentIndex].src} alt={images[currentIndex].alt} className={styles.image} /> */}
+        <Image 
+        src={images[currentIndex].src} 
+        alt={images[currentIndex].alt} 
+        className={styles.image} 
+        layout="responsive" // or other layout options like 'fixed', 'intrinsic', etc.
+        width={500} // specify the width
+        height={300} // specify the height
+      />
         <Box className={styles.buttonContainer}>
           <Button onClick={prevImage} variant="contained" color="primary" className={styles.button}>
             Previous
